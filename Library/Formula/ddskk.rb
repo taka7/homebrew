@@ -2,8 +2,8 @@ require 'formula'
 
 class Ddskk < Formula
   homepage 'http://openlab.ring.gr.jp/skk/ddskk.html'
-  url 'http://openlab.ring.gr.jp/skk/maintrunk/ddskk-14.4.tar.gz'
-  sha1 '85f7dd5a800b3467e325db344321cb9ec42afaae'
+  url 'http://openlab.ring.gr.jp/skk/maintrunk/ddskk-15.1.tar.gz'
+  sha1 'df4e7305c94cb8966e843dff9a0c9f1fabdcb082'
 
   def install
     open("SKK-CFG", 'a'){|f| f.puts(<<DATA) }
